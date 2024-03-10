@@ -1,5 +1,36 @@
 /* https://piccalil.li/blog/a-modern-css-reset */
 
+:root {
+
+  --clr-primary-400: hsl(193, 38%, 86%);
+  --clr-primary-500: hsl(150, 100%, 66%);
+
+  --clr-neutral-300: hsl(217, 19%, 38%);
+  --clr-neutral-400: hsl(217, 19%, 24%);
+  --clr-neutral-500: hsl(218, 23%, 16%);
+
+  --fs-100: 1rem;
+  --fs-200: 1.25rem;
+  --fs-300: 1.5rem;
+  --fs-400: 1.75rem;
+  --fs-500: 2rem;
+  --fs-600: 2.5rem;
+  --fs-700: 2.75rem;
+
+  --ff-primary: "Manrope", sans-serif;
+
+  --fw-extra-bold: 800;
+
+  --size-200: .5rem;
+  --size-300: .75rem;
+  --size-400: 1rem;
+  --size-500: 1.25rem;
+  --size-600: 1.5rem;
+  --size-700: 2rem;
+  --size-800: 2.5rem;
+  --size-900: 3rem;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -60,3 +91,4 @@ svg {
     scroll-behavior: auto !important;
   }
 }
+
