@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
 import diceLogo from '../src/assets/images/icon-dice.svg'
-import desktopDivider from '../src/assets/images/pattern-divider-desktop.svg'
-import mobileDivider from '../src/assets/images/pattern-divider-mobile.svg'
 
 function App() {
   const [data, setData] = useState({slip: {
-    id: 0,
-    advice: ''
+    id: 1,
+    advice: 'Random Advice :)'
   }})
   const [randomAdvice, setRandomAdvice] = useState(false)
 
